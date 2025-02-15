@@ -130,7 +130,7 @@ body{
     cursor: pointer;
     font-size: 15px;
     margin-left:90px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 /*link de recuperar contraseña*/
 .wrapper .label-recuperarC{
@@ -140,12 +140,14 @@ body{
     height: 30px;
     position: relative;
     left: 485px; 
+    text-decoration: none;
+    color:#fff;
 }
 /*pregunta sobre registro*/
 .wrapper .label-pregistro{
     font-size: 15px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     width: 100%;
 
 } 
@@ -158,6 +160,7 @@ body{
     cursor: pointer;
     font-size: 15px;
     margin-left: 275px;
+    margin-top: -5px;
 
 
 }
@@ -165,10 +168,12 @@ body{
 /*logos */
 .wrapper .submit-logos-login{
     display: flex;
+    gap: 10px;
     justify-content: center;
-    gap: 15px;
-    margin: 10px auto;
-    margin-top: 100px;
+    margin-top: 15px;
+    align-items: center;
+    width: 100%;
+
 
 
 }
