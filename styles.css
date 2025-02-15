@@ -26,7 +26,7 @@ body{
     border-radius: 10px;
     color: #fff;
     padding: 30px 40px 30px;
-    margin: 0 10px;
+    margin: 10px auto;
 
 }
 
@@ -118,25 +118,58 @@ body{
 }
 
 /*login*/
-/*lick*/
-.wrapper .label-login{
-    font-size: -15px;
-    background-color: transparent;
-    transform: translate(53.5vh);
-    margin-top: -15px;
-}
-.wrapper .label-login a{
-    font-size: -10px;
+
+/*boton de inicio de sesion*/
+.wrapper .btn-login{
+    width: 13vh;
+    height: 4vh;
+    border: none;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin-top: 5px;
     cursor: pointer;
+    font-size: 15px;
+    margin-left:90px;
+    margin-top: 30px;
 }
-/*iconos*/
+/*link de recuperar contraseña*/
+.wrapper .label-recuperarC{
+    font-size: -15px;
+    margin-top: -10px;
+    cursor: pointer;
+    height: 30px;
+    position: relative;
+    left: 485px; 
+}
+/*pregunta sobre registro*/
+.wrapper .label-pregistro{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+
+} 
+/*boton de registrar */
+.wrapper .btn-registro{
+    width: 13vh;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 275px;
+
+
+}
+
+/*logos */
 .wrapper .submit-logos-login{
     display: flex;
     justify-content: center;
     gap: 15px;
-    transform: translate(-25vh);
-    margin-top: 10px;
-    
+    margin: 10px auto;
+    margin-top: 100px;
+
 
 }
 .wrapper .submit-logos-login i{
@@ -144,4 +177,3 @@ body{
     cursor: pointer;
 }
 
- 
