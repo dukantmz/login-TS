@@ -151,9 +151,11 @@ body{
 /*pregunta sobre registro*/
 .wrapper .label-pregistro{
     font-size: 15px;
-    text-align: center;
-    margin-top: 10px;
-    width: 100%;
+    margin-right: 490px;
+    margin-top: 15px;
+    position: relative;
+    white-space: nowrap;
+    top: 20px;
 
 } 
 /*boton de registrar */
@@ -165,10 +167,9 @@ body{
     cursor: pointer;
     font-size: 15px;
     margin-left: 275px;
-    margin-top: -5px; 
+    position: relative;
 
-
-
+    
 
 }
 
@@ -177,27 +178,79 @@ body{
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 15px;
     align-items: center;
     width: 100%;
-
+    margin-top: -25px;
 
 
 }
 /*tamaño de lo logos*/
 .wrapper .submit-logos-login i{
-    font-size: 40px;
+    font-size: 45px;
     cursor: pointer;
 }
-/*boton de registrar */
+/*boton de recuperar contraseña */
 .wrapper .btn-rcontraseña{
     width: 13vh;
     height: 5vh;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 13px;
-    margin-left: 275px;
+    font-size: 15px;
     margin-top: -5px;
+    width: 100%;
 }
+/* boton registro de login */
+.wrapper .btn-registro-login{
+    width: 13vh;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 275px;
+    position: relative;
+    bottom: 35px;
+    right: 70px;
+   
+
+}
+/* boton de login para entrar a registro*/
+.wrapper .label-pregistro-cambiar{
+    font-size: 15px;
+    position: relative;
+    white-space: nowrap;
+    bottom: 38px;
+    right: 70px;
+
+} 
+/* boton de cambiar contraseña en login*/
+.wrapper .btn-cambiar-login{
+    width: 18vh;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    white-space: nowrap;
+    position: relative;
+    bottom: 40px;
+    right: 65px;
+
+}
+/* boton de cambiar contraseña */
+.wrapper .btn-registro-cambiar{
+    width: 18vh;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+   
+
+}
+
 
