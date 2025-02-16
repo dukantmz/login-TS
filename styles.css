@@ -143,6 +143,11 @@ body{
     text-decoration: none;
     color:#fff;
 }
+/* quitar color a link */
+.wrapper .label-recuperarC a{
+    color: #fff;
+
+}
 /*pregunta sobre registro*/
 .wrapper .label-pregistro{
     font-size: 15px;
@@ -160,12 +165,14 @@ body{
     cursor: pointer;
     font-size: 15px;
     margin-left: 275px;
-    margin-top: -5px;
+    margin-top: -5px; 
+
+
 
 
 }
 
-/*logos */
+/*posicion de los logos */
 .wrapper .submit-logos-login{
     display: flex;
     gap: 10px;
@@ -177,8 +184,20 @@ body{
 
 
 }
+/*tamaño de lo logos*/
 .wrapper .submit-logos-login i{
     font-size: 40px;
     cursor: pointer;
+}
+/*boton de registrar */
+.wrapper .btn-rcontraseña{
+    width: 13vh;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 275px;
+    margin-top: -5px;
 }
 
